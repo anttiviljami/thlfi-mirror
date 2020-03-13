@@ -1,13 +1,17 @@
-update: *
+update: FORCE
 	./wget-links.sh links-update.txt
-content: *
+content: FORCE
 	./wget-links.sh links-all.txt
-build: *
+build: FORCE
 	rm -vr build || true
-	cp -vr content/thl.fi build
-	./generate-combo.sh
+	cp -r content/thl.fi build
 	./remove-queries.sh
 	./create-indices.sh
 	./relative-links.sh
-sync: *
+prune: FORCE
+	rm -rf build/documents build/tilastoliite
+sync: FORCE
 	aws s3 sync build s3://thl-fi-mirror
+crawl: FORCE
+	node crawler.js
+FORCE: ;

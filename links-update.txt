@@ -1,3 +1,4 @@
+https://thl.fi/
 https://thl.fi/ajankohtaista/medialle
 https://thl.fi/ajankohtaista/tiedotteet-ja-uutiset
 https://thl.fi/en/web/infectious-diseases
@@ -440,3 +441,4 @@ https://thl.fi/web/thlfi-sv/thl/kontaktuppgifter
 https://thl.fi/web/thlfi-sv/thl/om-tjansten
 https://thl.fi/web/thlfi-sv/thl/respons
 https://thl.fi/web/vaccinationer
+https://thl.viljami.io/fi/web/infektiotaudit-ja-rokotukset/taudit-ja-torjunta/taudit-ja-taudinaiheuttajat-a-o/koronavirus-covid-19/toimenpideohje-epailtaessa-koronaviruksen-covid-19-aiheuttamaa-infektiota
