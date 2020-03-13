@@ -20,4 +20,3 @@ exports.handler = async (e) => {
   console.log(cached);
   return { cached };
 };
-
